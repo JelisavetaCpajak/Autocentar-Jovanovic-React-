@@ -1,0 +1,40 @@
+.root {
+  flex-grow: 1;
+  overflow: "hidden";
+  padding: spacing(0, 3);
+  text-align: "center";
+  position: absolute;
+  background-color: bisque;
+}
+
+.paper {
+  max-width: 400;
+  margin: spacing 1 px auto;
+  padding: spacing(2);
+}
+
+.NavLink {
+  max-width: 400;
+  margin: spacing 1 px auto;
+  padding: spacing(2);
+  text-align: center;
+}
+
+.menuButton {
+  margin-right: spacing 1 px auto;
+}
+.title {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.media {
+  height: 400;
+}
+
+.card {
+  max-width: 345;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

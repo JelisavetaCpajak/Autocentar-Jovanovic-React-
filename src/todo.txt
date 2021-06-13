@@ -1,0 +1,26 @@
+//da li je logicno da iz pretrazivanja sme dsa se vrsi izmena i brisanje
+//ako vec postoji izmenaRacuna zasebno
+
+//IzmeniRacun-> dugme dodajStavku
+//IzmeniRacun-> dugme sacuvajPromene
+//KreirajRacun-> sacuvajRacun nije odradjeno ni ovde ni u bazi
+
+//resiti problem datuma, ne salje se u dobrom formatu
+//kod izmeniRacun, pokusaj da napravis da svaka stavka ima atribute kreiranje, izmena i brisanje
+//jer je server tako napravljen
+//pa se na osnovu tog propertija ulazi u odredjene if-else grane
+//ili izmeni server jer kod mene na klijentu, iz izmeniRacun kad se obrise stavka, ona se izbaci iz this.props.racunZaIzmenu.nizStavki
+//a ona nova koja se doda, za nju sam mislila da nadjem maxRbr iz starog nizaStavki i uvecam za jedan
+
+//1.3.2020.
+//login strana-> ako ostane neko polje prazno - RESENO
+//kreiraj racun->
+//1. ne moze da se sacuva ako nema nijedne stavke - RESENO
+//2. ako datum nije cekiran !!!!!!!!
+//3. kad se popunjava stavka, ona ne sme imati prazna polja -RESENO i cene(sa i bez pdv) moraju biti brojevi - RESENO
+//izmeni racun ->
+//1. kad klikne na stavku i klikne sacuvaj promenu, ne sme stavka da ima prazna polja - RESENO i cene(sa i bez pdv) moraju da budu brojevi - RESENO
+
+//NIJE URADJENO UOPSTE:
+//kad se sacuvaju izmene na racunu, treba da me vrati na pretrazivanjeRacuna ali tako da su i dalje izlistani racuni iz prethodne pretrage - RESENO
+//datum nije upisan u bazu(vec null) jer ne nisam dobar format smestala u bazu
